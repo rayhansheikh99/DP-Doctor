@@ -1,0 +1,39 @@
+.medicine{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.card-online{
+    width: 360px;
+    height: 173px;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+}
+.location{
+    margin-top: -3rem;
+}
+.pharmacy{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #2CAEE2;
+}
+.view-btn{
+    background: #2CAEE2;
+    border-radius: 72px;
+    padding: 7px 50px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.online-btn{
+    text-align: center;
+    margin-top: 48px;
+}
