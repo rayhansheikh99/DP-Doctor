@@ -1,0 +1,20 @@
+.video-sec{
+    margin-top: 15%;
+}
+.title-all{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #333333;
+}
+.video{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.videocall{
+    margin-top: 10%;
+}

@@ -17,6 +17,7 @@ color: #333333;
 .bgimg1{
     position: absolute;
     z-index: -1;
+    right: 0;
     
 }
 .doctor{

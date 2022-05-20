@@ -12,7 +12,7 @@ const Header = () => {
         <div>
         <Container>
             <Row>
-                <Col md={5}>
+                <Col lg={5} md={12} sm={12}>
                     <div>
                     <Image className='bgimg' src={bgimg}></Image>
                     </div> 
@@ -27,7 +27,7 @@ const Header = () => {
                         </div>
                    </div>
                 </Col>
-                <Col className='' md={7}>
+                <Col className='' lg={7} md={12} sm={12}>
                 <Image className='bgimg1' src={bgimg1}></Image>
                 <Image className='doctor' src={doctor}></Image>
                 </Col>

@@ -1,10 +1,9 @@
 .about-sec{
     margin-top: 10%;
 }
-.aboutImg2{
+.aboutImg{
     position: absolute;
-    z-index: -1;
-    margin-top: 50px;
+    left: 0;
 }
 .font-all{
     font-family: 'Montserrat';
