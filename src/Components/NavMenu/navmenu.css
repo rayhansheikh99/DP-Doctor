@@ -1,0 +1,19 @@
+.nav-bg{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    /* border-bottom: ; */
+    box-shadow:0 4px 6px -6px #222;
+}
+.menu{
+    margin-top: 10px;
+}
+.menu-item{
+    margin-left: 200px;
+}
+.login-btn{
+    width: 109px;
+    background: #2CAEE2 !important;
+    border-radius: 39px !important;
+    border: none !important;
+    margin: 0 10px;
+}

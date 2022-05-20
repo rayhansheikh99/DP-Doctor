@@ -1,0 +1,21 @@
+.bgimg{
+    position: absolute;
+    left: 0;
+}
+.heading-item{
+    margin: 150px 0 0 190px;
+}
+.bgimg1{
+    position: absolute;
+    z-index: -1;
+    
+}
+.doctor{
+    margin: 50px 0 0 150px;
+}
+.search-btn{
+    padding: 7px 60px;
+    background: #2CAEE2;
+    border-radius: 62px;
+    border: none;
+}
