@@ -3,7 +3,9 @@ import AboutUs from '../../Components/AboutUs/AboutUs';
 import AppFollow from '../../Components/AppFollow/AppFollow';
 import DoctorList from '../../Components/DoctorList/DoctorList';
 import ExpertDoctor from '../../Components/ExpertDoctor/ExpertDoctor';
+import Faq from '../../Components/Faq/Faq';
 import Header from '../../Components/Header/Header';
+import NewsBlogs from '../../Components/NewsBlogs/NewsBlogs';
 import OrderOnline from '../../Components/OrderOnline/OrderOnline';
 import OurServices from '../../Components/OurServices/OurServices';
 import TmSection from '../../Components/TmSection/TmSection';
@@ -23,6 +25,8 @@ const Home = () => {
             <OurServices/>
             <DoctorList/>
             <ExpertDoctor/>
+            <Faq/>
+            <NewsBlogs/>
         </div>
     );
 };
