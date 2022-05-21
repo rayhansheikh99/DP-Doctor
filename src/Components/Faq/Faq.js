@@ -28,25 +28,25 @@ const Faq = () => {
                             </div>
                             <div className="accordion-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-border">
                             <div className="accordion-title">
                                 <div>What do you treat?</div>
                                 <div className='open-close'>+</div>
                             </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-border">
                             <div className="accordion-title">
                                 <div>How does it work?</div>
                                 <div className='open-close'>+</div>
                             </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-border">
                             <div className="accordion-title">
                                 <div>Who provides consultation on TM?</div>
                                 <div className='open-close'>+</div>
                             </div>
                             </div>
-                            <div className="accordion-item">
+                            <div className="accordion-border">
                             <div className="accordion-title">
                                 <div>Are the registered Doctors varified?</div>
                                 <div className='open-close'>+</div>

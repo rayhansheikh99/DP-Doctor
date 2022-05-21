@@ -1,0 +1,48 @@
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 47px;
+    margin-bottom: 26px;
+}
+.contact-us{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 17px;
+
+}
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 9px;
+}
+.footerbg{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap:13px ;
+    margin-top: 14px;
+}
+.download-app{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2CAEE2;
+    margin-top: 34px;
+    text-align: center;
+}
