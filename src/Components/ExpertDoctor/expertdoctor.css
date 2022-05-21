@@ -1,0 +1,26 @@
+.signup-btn{
+    background: #2CAEE2;
+    border-radius: 72px;
+    padding: 7px 40px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* margin-inline: 25px; */
+}
+.expertdrbg{
+    position: absolute;
+    width: 545.73px;
+    height: 547.19px;
+    right: 0;
+    z-index: -1;
+}
+.expertdr{
+    margin-left: 100px;
+}
+.expartdr-text{
+    padding-left: 108px;
+}

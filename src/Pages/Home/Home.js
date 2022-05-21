@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUs from '../../Components/AboutUs/AboutUs';
 import AppFollow from '../../Components/AppFollow/AppFollow';
 import DoctorList from '../../Components/DoctorList/DoctorList';
+import ExpertDoctor from '../../Components/ExpertDoctor/ExpertDoctor';
 import Header from '../../Components/Header/Header';
 import OrderOnline from '../../Components/OrderOnline/OrderOnline';
 import OurServices from '../../Components/OurServices/OurServices';
@@ -21,6 +22,7 @@ const Home = () => {
             <OrderOnline/>
             <OurServices/>
             <DoctorList/>
+            <ExpertDoctor/>
         </div>
     );
 };
