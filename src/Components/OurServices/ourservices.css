@@ -1,0 +1,22 @@
+.service{
+    margin-left:90px ;
+}
+.service-list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 14px;
+    
+}
+.service-group{
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+.active{  
+    color: #2CAEE2;
+}
