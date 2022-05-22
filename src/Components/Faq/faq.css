@@ -27,6 +27,12 @@
     justify-content: space-between;
     cursor: pointer;
     background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
   }
   
   .accordion-title:hover {
@@ -41,6 +47,12 @@
   
   .accordion-content {
     background-color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
 
   }
   .open-close{

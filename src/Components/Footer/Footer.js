@@ -102,7 +102,7 @@ const Footer = () => {
                     </div>
                 </Col>
                 <Col className='' lg={2} md={12} sm={12}>
-                    <h5>Social Links</h5>
+                    <h5 className='contact-us'>Social Links</h5>
                     <div className='social-icons'>
                     <Image className='fb' src={fb}></Image>
                     <Image className='youtube' src={youtube}></Image>
