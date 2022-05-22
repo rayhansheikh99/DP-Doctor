@@ -5,7 +5,7 @@ import faqbg from "../../images/faqbg.png"
 import faq from "../../images/faq.png"
 const Faq = () => {
     return (
-        <div>
+        <div id="faq">
              <div className='text-center faq-sec'>
                 <h1 className='title-all'>Frequently Asked Questions  </h1>
                 <p className='font-all'>Lorem Ipsum is simply dummy text of the printing and typesetting <br/> industry. Lorem Ipsum has been the industry's standard</p>
@@ -19,7 +19,7 @@ const Faq = () => {
                     <Image className='mobile' src={faq}></Image>
                     
                     </Col>
-                    <Col className='app-feature' lg={7} md={12} sm={12}>
+                    <Col className='mt-4' lg={7} md={12} sm={12}>
                         <div className="accordion">
                             <div className="">
                             <div className="accordion-title">

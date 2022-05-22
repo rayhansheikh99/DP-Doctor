@@ -46,7 +46,7 @@ const NewsBlogs = () => {
         ]
       };
     return (
-        <div>
+        <div id="blog">
             <div className='text-center app-sec mb-4'>
                 <h1 className='title-all mb-3'>News & Blogs  </h1>
                 <p className='font-all mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting <br/> industry. Lorem Ipsum has been the industry's standard</p>

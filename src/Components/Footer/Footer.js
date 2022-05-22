@@ -83,7 +83,7 @@ const Footer = () => {
             </Row>
             <h5 className='contact-us'>Contact Us</h5>
             <Row>
-                <Col className='' lg={4} md={12} sm={12}>
+                <Col id='contact' lg={4} md={12} sm={12}>
                     <div className='contact-item'>
                     <Image className='address' src={address}></Image>
                     <p className='mb-0 font-all'>House-20, Road-27, Block-A, Banani, Dhaka.</p>

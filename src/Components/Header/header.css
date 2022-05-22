@@ -8,8 +8,16 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
+    color: #333333;
+}
+.header-font{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
 
-color: #333333;
 }
 .heading-item{
     margin: 150px 0 0 100px;

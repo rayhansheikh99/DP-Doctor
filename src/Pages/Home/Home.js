@@ -4,6 +4,7 @@ import AppFollow from '../../Components/AppFollow/AppFollow';
 import DoctorList from '../../Components/DoctorList/DoctorList';
 import ExpertDoctor from '../../Components/ExpertDoctor/ExpertDoctor';
 import Faq from '../../Components/Faq/Faq';
+import Feedback from '../../Components/Feedback/Feedback';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 import NewsBlogs from '../../Components/NewsBlogs/NewsBlogs';
@@ -27,8 +28,10 @@ const Home = () => {
             <DoctorList/>
             <ExpertDoctor/>
             <Faq/>
+            <Feedback/>
             <NewsBlogs/>
             <Footer/>
+            
         </div>
     );
 };

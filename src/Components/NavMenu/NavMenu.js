@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Image, Nav, Navbar, NavDropdown, Button } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import logo from "../../images/logo.png"
 import logo2 from "../../images/TM.png"
 import world from "../../images/world.svg"
@@ -16,16 +17,16 @@ const NavMenu = () => {
                     <NavDropdown className="menu-item" title="Doctor" id="collasible-nav-dropdown"/>
                     <NavDropdown title="Services" id="collasible-nav-dropdown"/>
                     <NavDropdown title="Pharmacy Owner" id="collasible-nav-dropdown"/>
-                    <Nav.Link href="#">About Us</Nav.Link>
-                    <Nav.Link href="#">Blog</Nav.Link>
-                    <Nav.Link href="#">Contact</Nav.Link>
-                    <Nav.Link href="#">FAQ</Nav.Link>
+                    <Nav.Link> <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About Us</Link></Nav.Link>
+                    <Nav.Link><Link to="blog" spy={true} smooth={true} offset={50} duration={500}>Blog</Link></Nav.Link>
+                    <Nav.Link><Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></Nav.Link>
+                    <Nav.Link><Link to="faq" spy={true} smooth={true} offset={50} duration={500}>FAQ</Link></Nav.Link>
                 
                     </Nav>
                     <Nav>
                     <Image src={world} alt="world"/>
                     <NavDropdown title="En" id="collasible-nav-dropdown"/>
-                    <Button className='login-btn'>Login</Button>
+                    <button className='login-btn'>Login</button>
                     </Nav>
                 </Container>
             </Navbar>

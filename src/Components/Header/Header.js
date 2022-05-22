@@ -18,12 +18,13 @@ const Header = () => {
                     </div> 
                    <div className='heading-item'>
                        <h1 className='header-text'>Protect and Take <br/> Care of Your Health</h1>
-                       <p className='font-all'>Download Our App and feel free to take <br/>
+                       <p className='header-font'>Download Our App and feel free to take <br/>
                         your Health Advice from a Specialist.</p>
-                        <button className='search-btn mb-4 mt-4'>Search for a service</button>
+                        <button className='search-btn mb-4 mt-4'>Search for a Service</button>
                         <div>
-                        <Image className='apple me-4' src={apple}></Image>
-                        <Image className='playstore' src={playstore}></Image>
+                        <Image className='playstore me-4' src={playstore}></Image>
+                        <Image className='apple ' src={apple}></Image>
+                        
                         </div>
                    </div>
                 </Col>

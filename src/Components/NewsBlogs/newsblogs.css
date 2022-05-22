@@ -16,10 +16,10 @@
 
 }
 .card-design{
-    border:none;
+    border:none !important;
 }
 .card-img{
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 .card-group{
     display: flex;

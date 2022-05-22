@@ -1,8 +1,7 @@
 .nav-bg{
     height: 80px;
     background-color: rgb(255, 255, 255);
-    /* border-bottom: ; */
-    box-shadow:0 4px 6px -6px #222;
+    box-shadow:0 3px 10px -6px #222;
 }
 .menu{
     margin-top: 10px;
@@ -12,8 +11,17 @@
 }
 .login-btn{
     width: 109px;
-    background: #2CAEE2 !important;
-    border-radius: 39px !important;
-    border: none !important;
+    height: 32px;
+    background: #2CAEE2 ;
+    border-radius: 39px ;
+    border: none ;
     margin: 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
 }
