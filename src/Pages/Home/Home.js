@@ -10,6 +10,8 @@ import Header from '../../Components/Header/Header';
 import NewsBlogs from '../../Components/NewsBlogs/NewsBlogs';
 import OrderOnline from '../../Components/OrderOnline/OrderOnline';
 import OurServices from '../../Components/OurServices/OurServices';
+import Slide from '../../Components/Slide/Slide';
+import Slider from '../../Components/Slider/Slider';
 import TmSection from '../../Components/TmSection/TmSection';
 import VideoConsult from '../../Components/VideoConsult/VideoConsult';
 import NavMenu from './../../Components/NavMenu/NavMenu';
@@ -19,6 +21,8 @@ const Home = () => {
         <div>
             <NavMenu/>
             <Header/>
+            <Slider/>
+            <Slide/>
             <AboutUs/>
             <VideoConsult/>
             <TmSection/>
