@@ -16,14 +16,16 @@ import TmSection from '../../Components/TmSection/TmSection';
 import VideoConsult from '../../Components/VideoConsult/VideoConsult';
 import NavMenu from './../../Components/NavMenu/NavMenu';
 
+
 const Home = () => {
     return (
         <div>
             <NavMenu/>
             <Header/>
             <Slider/>
-            <Slide/>
+            
             <AboutUs/>
+            <Slide/>
             <VideoConsult/>
             <TmSection/>
             <AppFollow/>

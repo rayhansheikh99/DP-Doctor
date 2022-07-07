@@ -1,43 +1,51 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react'
+import Carousel from 'react-grid-carousel'
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import "./styles.css";
-// import styles from './styles.module.css'
-
-// import required modules
-import { Pagination } from "swiper";
-
-export default function Slide() {
-  const pagination = {
-    clickable: true,
-    // bulletClass: `swiper-pagination-bullet`,
-    // renderBullet: function (index, className) {
-    //   return '<span class="' + className + '">' + (index + 1) + "</span>";
-    // },
-  };
-
+const Slide = () => {
   return (
-    <>
-      <Swiper
-        pagination={pagination}
-        modules={[Pagination]}
-        className={`mySwiper`}
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </>
-  );
-}
+    <Carousel cols={5} rows={2} gap={1} loop showDots>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=1" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=2" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img height="100px" width="100px" src="https://picsum.photos/800/600?random=3" />
+      </Carousel.Item>
+      <Carousel.Item>
+        {/* anything you want to show in the grid */}
+      </Carousel.Item>
+      {/* ... */}
+    </Carousel>
+  )
+};
+
+export default Slide

@@ -2,6 +2,9 @@
     height: 80px;
     background-color: rgb(255, 255, 255);
     box-shadow:0 3px 10px -6px #222;
+    /* position: sticky;
+    top:0;
+    z-index: 1000; */
 }
 .menu{
     margin-top: 10px;
